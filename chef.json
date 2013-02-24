@@ -1,5 +1,6 @@
 {
 	"run_list": [
-		"my_server"
+		"my_server",
+		"man"
 	]
 }
