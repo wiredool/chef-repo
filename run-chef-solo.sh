@@ -26,7 +26,7 @@ if [ $? -ne 0 ] ; then
   echo 'chef-solo not found!'
   echo 'install now?(y/N)'
   read YES_NO
-  if [ YES_NO = 'y' -o YES_NO = 'Y'] ; then
+  if [ YES_NO = 'y' -o YES_NO = 'Y' ] ; then
     #
     # install chef-solo
     # bash need sudo
